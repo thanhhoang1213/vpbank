@@ -1,0 +1,14 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang Chủ</title>
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <script>
+    document.getElementById('navbar').innerHTML='<object type="text/html" data="template.html" ></object>';
+    </script>
+</body>
+</html>
